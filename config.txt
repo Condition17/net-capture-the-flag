@@ -1,0 +1,12 @@
+---
+:port: 3000
+:server_address: '127.0.0.1'
+:client_address: '127.0.0.1'
+:author_name: 'Mihai Parpalea'
+:flag_present: false
+:hosts:
+- 192.168.1.140
+- 192.168.1.128
+- 192.168.1.101
+- 192.168.1.148
+- 192.168.1.131
