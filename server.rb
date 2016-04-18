@@ -47,14 +47,9 @@ loop {
 
       case method
       when 'next_server'
-        # if foreign_connection
-        #   puts "unhautorized command"
-        #   client.puts 'I don\'t know you!'
-        # else
           response = server.next_server(remote_ip)
           puts response
           client.puts response
-        # end
         close_connection = true
 
       when 'who_are_you?'
@@ -72,7 +67,6 @@ loop {
           response = 'NO'
           puts response
           client.puts response
-          # close_connection = true
         end
 
       when 'capture_flag'

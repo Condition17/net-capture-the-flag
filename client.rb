@@ -1,5 +1,4 @@
 #!/usr/bin/ruby
-
 require 'socket'
 require 'yaml'
 require 'timeout'
