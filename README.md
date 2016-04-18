@@ -58,3 +58,9 @@ The purpose of the client is to execute the following sequence:
     </ul>
   </li>
 </ul>
+
+Setup
+=====================
+You can configure the game details in 'config.txt' file. Here you should insert your client and your server IPs( ":server_address" and ":client_address"), the server's port( ":port" ), the other servers IPs( ":hosts" ), the author name( ":author_name" ) and don't forgot to tell if your server has the flag or not( ":flag present" ) . <br>
+__Run client__: go to the project folder and run "ruby client.rb"<br>
+__Start the server__: go to the project folder and run "ruby server.rb"
